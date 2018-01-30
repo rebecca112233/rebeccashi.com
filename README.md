@@ -1,3 +1,3 @@
 # rebecca112233.github.io
 
-my personal website
+This is my personal website! To visit my website, you can go to rebeccashi.me
