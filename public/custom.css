@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: left;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.container{
+  font-family: 'Barlow', sans-serif;
+}
+
+h2{
+  text-align: center;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: green;
+}
+
+.img-responsive, .carousel {
+  margin-bottom: 20px;
+}
+
+.main{
+  font-family: 'Euphoria Script', cursive;
+  font-size:100px;
+  text-align:center;
+  margin-top:100px;
+}
+
+.sub{
+  font-family: 'Cuprum', sans-serif;
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.topline{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+/* Make carousel images fill the entire slide */
+.carousel-inner > .item > img {
+  min-width: 100%;
+}
