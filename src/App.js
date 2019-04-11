@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import { Navbar, Nav } from 'react-bootstrap';
-import HomePage from './pages/homepage/HomePage';
-import AboutPage from './pages/aboutpage/AboutPage';
+import HomePage from './pages/HomePage/HomePage';
+import AboutPage from './pages/AboutPage/AboutPage';
+import CustomNavbar from './components/CustomNavbar/CustomNavbar';
 
 const App = () => (
   <>
     <div className="App">
       <div id="nav">
-        <Navbar fixed="top" bg="dark">
+        <CustomNavbar />
+        {/* <Navbar fixed="top" bg="dark">
           <Navbar.Brand href="#home">
             Rebecca
           </Navbar.Brand>
@@ -16,7 +18,7 @@ const App = () => (
           <Nav.Link href="#" style={{color:'white'}}>About</Nav.Link>
           <Nav.Link href="#" style={{color:'white'}}>Resume</Nav.Link>
           <Nav.Link href="#" style={{color:'white'}}>Portfolio</Nav.Link>
-        </Navbar>
+        </Navbar> */}
       </div>
       <div id="pageWrapper">
         <HomePage />
