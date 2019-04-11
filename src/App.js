@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import { Navbar, Nav } from 'react-bootstrap';
-import HomePage from './pages/HomePage/HomePage';
-import AboutPage from './pages/AboutPage/AboutPage';
+import HomePage from './pages/homepage/homepage';
+import AboutPage from './pages/aboutpage/aboutpage';
 import CustomNavbar from './components/CustomNavbar/CustomNavbar';
 
 const App = () => (
