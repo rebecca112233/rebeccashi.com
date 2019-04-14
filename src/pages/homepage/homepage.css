@@ -4,9 +4,11 @@
     justify-content: center;
     flex-direction: column;
     width:100%;
-    height:100vh;
-    text-align: center;
-    color: white;
+    height: calc(100vh - 55px);
+    height: -o-calc(100% - 55px); /* opera */
+    height: -webkit-calc(100% - 55px); /* google, safari */
+    height: -moz-calc(100% - 55px); /* firefox */
+    color: lightcoral;
     padding-left: 10%;
     padding-right: 10%;
 }

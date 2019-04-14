@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 import HomePage from './pages/homepage/homepage';
 import AboutPage from './pages/aboutpage/aboutpage';
 import CustomNavbar from './components/CustomNavbar/CustomNavbar';
@@ -8,13 +8,13 @@ import CustomNavbar from './components/CustomNavbar/CustomNavbar';
 const App = () => (
   <>
     <div className="App">
-      <div id="nav">
-        <CustomNavbar />
-      </div>
-      <div id="pageWrapper">
-        <HomePage />
-        <AboutPage />
-      </div>
+      <CustomNavbar />
+      <Router>
+        <div>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/about" component={AboutPage} />
+        </div>
+      </Router>
     </div>
   </>
 )
