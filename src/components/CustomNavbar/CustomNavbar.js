@@ -23,7 +23,7 @@ export default class CustomNavbar extends React.Component {
                 <ul className="main-nav" id="js-menu">
                     {/* <li><a href="/" className="nav-links">Home</a></li> */}
                     <li><a href="/about" className="nav-links">About</a></li>
-                    <li><a href="#" className="nav-links">Resume</a></li>
+                    <li><a href="/resume" className="nav-links">Resume</a></li>
                     <li><a href="#" className="nav-links">Portfolio</a></li>
                 </ul>
             </div>
@@ -37,7 +37,7 @@ export default class CustomNavbar extends React.Component {
                 <ul className="main-nav-gone" id="js-menu">
                     {/* <li><a href="/" className="nav-links">Home</a></li> */}
                     <li><a href="/about" className="nav-links">About</a></li>
-                    <li><a href="#" className="nav-links">Resume</a></li>
+                    <li><a href="/resume" className="nav-links">Resume</a></li>
                     <li><a href="#" className="nav-links">Portfolio</a></li>
                 </ul>
             </div>

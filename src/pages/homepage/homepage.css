@@ -11,6 +11,11 @@
     color: lightcoral;
     padding-left: 10%;
     padding-right: 10%;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
 }
 
 #title{
@@ -20,4 +25,5 @@
 
 hr{
     color: black;
+    align-self: center;
 }
