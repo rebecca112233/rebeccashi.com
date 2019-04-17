@@ -10,6 +10,7 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
+    "add-domain": "echo \"rebeccashi.com\" > build/CNAME",
     "predeploy": "npm run build",
     "deploy": "npm run cleanup && gh-pages -d build",
     "cleanup": "rm -rf node_modules/gh-pages/.cache",
