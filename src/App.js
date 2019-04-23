@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import HomePage from './pages/homepage/homepage';
 import AboutPage from './pages/aboutpage/aboutpage';
 import ResumePage from './pages/resumepage/resumepage';
@@ -11,11 +11,11 @@ const App = () => (
     <div className="App">
       <CustomNavbar />
       <Router>
-        <div>
+        <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/resume" component={ResumePage} />
-        </div>
+        </Switch>
       </Router>
     </div>
   </>

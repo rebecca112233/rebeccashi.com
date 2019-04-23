@@ -1,5 +1,7 @@
 import React from 'react';
 import './customnavbar.css';
+import {Link} from 'react-scroll';
+import {Nav, Navbar, NavbarBrand} from 'react-bootstrap';
 
 export default class CustomNavbar extends React.Component {
     constructor(props){
@@ -21,7 +23,6 @@ export default class CustomNavbar extends React.Component {
                 </span>
                 <a href="/" className="logo">Rebecca Shi</a>
                 <ul className="main-nav" id="js-menu">
-                    {/* <li><a href="/" className="nav-links">Home</a></li> */}
                     <li><a href="/about" className="nav-links">About</a></li>
                     <li><a href="/resume" className="nav-links">Resume</a></li>
                     <li><a href="#" className="nav-links">Portfolio</a></li>
@@ -43,5 +44,4 @@ export default class CustomNavbar extends React.Component {
             </div>
         )
     }
-    
 }

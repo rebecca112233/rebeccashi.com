@@ -1,12 +1,9 @@
 #about{
+    display: flex;
     width:100%;
-    height: calc(100vh - 55px);
-    height: -o-calc(100% - 55px); /* opera */
-    height: -webkit-calc(100% - 55px); /* google, safari */
-    height: -moz-calc(100% - 55px); /* firefox */
+    height: 100vh;
     text-align: center;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
