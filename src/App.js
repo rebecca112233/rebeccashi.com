@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
-import HomePage from './pages/homepage/homepage';
-import AboutPage from './pages/aboutpage/aboutpage';
-import ResumePage from './pages/resumepage/resumepage';
+import HomePage from './pages/home/Home';
+import AboutPage from './pages/about/About';
+import ResumePage from './pages/resume/resume';
 import CustomNavbar from './components/CustomNavbar/CustomNavbar';
 
 const App = () => (

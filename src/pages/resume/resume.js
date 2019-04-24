@@ -1,5 +1,5 @@
 import React from 'react';
-import './resumepage.css';
+import './resume.css';
 import {Button, Container, Row, Col} from 'react-bootstrap';
 
 export default class ResumePage extends React.Component{

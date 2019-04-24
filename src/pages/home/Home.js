@@ -1,7 +1,8 @@
 import React from 'react';
-import './homepage.css';
+import './home.css';
 import Arrow from '../../components/Arrow/Arrow';
-import About from '../aboutpage/aboutpage';
+import About from '../about/About';
+import Resume from '../resume/resume';
 import {Link} from 'react-scroll';
 
 export default class HomePage extends React.Component{
