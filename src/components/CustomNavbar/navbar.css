@@ -13,14 +13,17 @@
     background-color: rgb(59, 84, 84);
     padding-bottom: 10px;
 }
+/* dropdown menu */
 .main-nav {
     list-style-type: none;
     display: block;
 }
+
+/* hide drop down menu */
 .main-nav-gone {
     display: none;
 }
-.nav-links, .logo {
+.nav-links, #logo {
     text-decoration: none;
     color:  rgba(255,255,255,0.8);    
 }
@@ -30,7 +33,7 @@
     margin: 15px auto;
 }
 
-.logo {
+#logo {
     display: inline-block;
     font-size: 22px;
     margin-top: 10px;
@@ -46,11 +49,12 @@
     font-size: 24px;
 }
 
-.nav-links:hover, .logo:hover{
+.nav-links:hover, #logo:hover{
     text-decoration: none;
     color: white;
     cursor: pointer;
 }
+/* LARGE SCREEN */
 @media screen and (min-width: 768px) {
     #customNav {
         display: flex;
@@ -60,14 +64,14 @@
         background-color: transparent;
     }
 
-    .main-nav {
+    /* .main-nav {
         display: flex;
         margin-right: 30px;
         flex-direction: row;
         justify-content: flex-end;
         margin-top: 10px;
-    }
-    .main-nav-gone {
+    } */
+    #js-menu {
         display: flex;
         list-style-type: none;
         margin-right: 30px;
@@ -81,20 +85,19 @@
 
     .nav-links {
         margin-left: 40px;
-        color: black;
+        color:rgba(42, 42, 42, 0.877)
     }
 
-    .logo {
+    #logo {
         margin-top: 0;
+        color:rgba(42, 42, 42, 0.877)
     }
 
     .navbar-toggle {
         display: none;
     }
 
-    .nav-links:hover, .logo:hover{
-        text-decoration: none;
-        color: white;
-        cursor: pointer;
+    .nav-links:hover, #logo:hover{
+        color: black;
     }
 }

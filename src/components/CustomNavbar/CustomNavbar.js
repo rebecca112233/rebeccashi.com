@@ -21,7 +21,7 @@ export default class CustomNavbar extends React.Component {
                 <span className="navbar-toggle" id="js-navbar-toggle">
                     <i className="fas fa-bars" onClick={this.dropdownOnClick}></i>
                 </span>
-                <Link to="home" smooth={true}><a className="logo">Rebecca Shi</a></Link>
+                <Link to="home" smooth={true} id="logo">Rebecca Shi</Link>
                 <ul className={dropdown_class} id="js-menu">
                     <Link to="about" smooth={true}><li className="nav-links">About</li></Link>
                     <Link to="resume" smooth={true}><li className="nav-links">Resume</li></Link>
