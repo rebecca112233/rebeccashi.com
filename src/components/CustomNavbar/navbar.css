@@ -10,7 +10,7 @@
     width: 100%;
     font-size: 18px;
     padding-top: 1px;
-    background-color: rgb(59, 84, 84);
+    background-color: rgb(57, 76, 76);
     padding-bottom: 10px;
 }
 /* dropdown menu */
@@ -63,18 +63,11 @@
         align-items: center;
         background-color: transparent;
     }
-
-    /* .main-nav {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: flex-end;
-        margin-top: 10px;
-    } */
     .main-nav li {
         margin: 0;
         margin-right:30px;
     }
+    /* main-nav and main-nav-gone */
     #js-menu {
         display: flex;
         list-style-type: none;

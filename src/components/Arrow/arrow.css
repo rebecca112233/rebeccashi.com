@@ -7,7 +7,10 @@
 
 .arrow {
     animation: bouncing 1s infinite ease-in-out;
-    background-image: url(./arrow.png);
+    background-image: url(./arrow.ico);
+    filter: invert(100%) sepia(0%) saturate(839%) hue-rotate(203deg) brightness(113%) contrast(100%);
+    /* RETURNS FILTERS FOR CHANGE COLOR OF PNG IF GIVEN HEXCODE 
+    https://codepen.io/sosuke/pen/Pjoqqp */
     background-size: contain;
     position: absolute;
     bottom: 0;
