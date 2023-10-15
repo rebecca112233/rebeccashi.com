@@ -3,20 +3,20 @@ import './App.css';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import HomePage from './pages/home/Home';
 import AboutPage from './pages/about/About';
-import ResumePage from './pages/resume/resume';
+import ResumePage from './pages/resume/Resume';
 import CustomNavbar from './components/CustomNavbar/CustomNavbar';
 
 const App = () => (
   <>
     <div className="App">
-      <CustomNavbar />
+      {/* <CustomNavbar />
       <Router>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/resume" component={ResumePage} />
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   </>
 )
